@@ -1,0 +1,10 @@
+1. While downloading anaconda, there are three things you have to keep in mind:
+	a. Operating System
+	b. Python version
+	c. 64 bit or 32 bit
+	
+Make sure you download the graphic installer. Download the installer, then install anaconda. After that, search for anaconda navigator in the Start Menu and launch it. Then, initiate "Spyder" which is a good IDE for python.
+
+Why use anaconda to install python??
+---------------------------------------------
+Python has many free packages, which are popular among the scientific community. Anaconda installs all these popular packages alongside python as well. When you install only python, you have just python. You manually have to install all the other packages later.

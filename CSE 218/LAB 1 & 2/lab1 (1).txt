@@ -1,0 +1,111 @@
+from math import log as l
+import math
+dir(math)
+help(math.log)
+import math as m
+from math import log
+5**2
+5//3
+print("HELLO SAYEM")
+x=5
+print (x)
+type(a)
+>>> x=1+2j
+>>> type(x)
+<class 'complex'>
+
+*sequence-1.list
+2.tuple
+3.String
+
+String---
+>>> s="kjsfgh jksdhf jshf j uisdhf"
+>>> s.split(" ")
+
+>>> sl=s.split(" ")
+>>> sl
+['kjsfgh', 'jksdhf', 'jshf', 'j', 'uisdhf']
+>>> " ".join(sl)
+'kjsfgh jksdhf jshf j uisdhf'
+
+
+tuple--
+
+>>> t={1,2,3,4,5}
+>>> t
+{1, 2, 3, 4, 5}
+>>> dir(t)
+
+>>> x=2
+>>> y=3
+>>> x,y=y,x
+>>> y
+2
+
+list--//only list er size change kora jay
+>>> l=[1,2,3,4,5,6]
+>>> l
+[1, 2, 3, 4, 5, 6]
+>>> l.append(10)
+>>> l
+[1, 2, 3, 4, 5, 6, 10]
+>>> l.remove(5)
+>>> l
+[1, 2, 3, 4, 6, 10]
+>>> dir(l)
+
+>>> max(l)
+10
+>>> min(l)
+1
+>>> len(l)
+6
+
+
+
+slicing---
+
+>>> l[2:5]
+[3, 4, 6]
+>>> l[:4]
+[1, 2, 3, 4]
+>>> l[2:]
+[3, 4, 6, 10]
+>>> l[-1] //last element
+10
+>>> l
+[1, 2, 3, 4, 6, 10]
+>>> l[-2] //second last element
+6
+>>> for i in l:
+	print(i)
+
+	
+1
+2
+3
+4
+6
+10
+
+>>> list(range(10)) //can generate list using range
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> list(range(5,12))
+[5, 6, 7, 8, 9, 10, 11]
+>>> list(range(3,30,4))
+[3, 7, 11, 15, 19, 23, 27]
+
+>>> sum=0
+>>> for i in range(1,100,2):
+	sum+=i
+
+
+dictionary-- //hash map
+>>> d={}
+>>> d={1:2,3:5,100:"fdjf"}
+>>> d
+{1: 2, 3: 5, 100: 'fdjf'}
+>>> d[100]
+'fdjf'
+>>> d.keys()
+dict_keys([1, 3, 100])
